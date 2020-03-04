@@ -1,0 +1,118 @@
+#container{
+    width: 376px;
+    height: 400px;
+    margin: 0 auto;
+    border: 0px solid #409EFF;
+    margin-top: 150px;
+    border-radius: 4px;
+    box-shadow:0 0 20px -5px #409EFF;
+    
+}
+.top{
+    width:100%;
+    height: 10%;
+}
+.top .btn{
+    width: 44.5%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+    background: #EBEEF5;
+    color: #000;
+}
+.close{
+
+    text-align: center;
+    line-height: 40px;
+    height: 100%;
+    width: 10.4%;
+    float: left;
+    background: #fef0f0;
+    color: #f56c6c;
+    border-radius: 0 4px 0 0;
+}
+.close:hover{
+    background: #dd6161;
+    color: #fff;
+    transition: 0.3s;
+}
+.body1{
+    width: 100%;
+   
+}
+.form1{
+    padding-left: 24px;
+}
+.body1 label{
+    text-align: right;
+    width: 38px;
+}
+.body1 input{
+    width: 65%;
+    height: 38px;
+    border: 1px solid#e6e6e6;
+    background-color: #fff;
+    border-radius: 1px;
+    line-height: 1.3;
+    padding-left: 10px;
+    margin: 15px;
+}
+.body1 input:hover{
+    border-color: #b4bccc;
+    transition:0.2s;
+}
+.body1 input:focus{
+    border-color: #409EFF;
+    transition: 0.3s;
+}
+.btns{
+    width: 100%;
+    height: auto;
+    padding: 25px 10px;
+}
+.btns1{
+    width: 100%;
+    height: auto;
+    padding: 5px 0px;
+}
+.mbutton{
+    width: 35%;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 18px;
+    margin: 0 18px;
+    color: #409eff;
+    background: #ecf5ff;
+    border-color: #b3d8ff;
+    white-space: nowrap;
+    font-size: 14px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+.mbutton:hover{
+    color: #fff;
+    background: #409EFF;
+    transition: 0.3s;
+}
+.mbutton1{
+    width: 20%;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 18px;
+    margin: 0 18px;
+    color: #409eff;
+    background: #ecf5ff;
+    border-color: #b3d8ff;
+    white-space: nowrap;
+    font-size: 14px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+.mbutton1:hover{
+    color: #fff;
+    background: #409EFF;
+    transition: 0.3s;
+}

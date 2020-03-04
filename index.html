@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>登陆与注册</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="top">
+            <div class="btn" id="btn1" onclick="login()"
+                style="border-radius: 4px 0 0 0;border-right: 2px solid #DCDFE6;">登陆</div>
+            <div class="btn" id="btn2" onclick="register()">注册</div>
+            <div class="close">x</div>
+        </div>
+        <div class="body1">
+            <form action="/" style="display: none; margin-top: 70px;" class="form1" id="login">
+                <label for="usr">账号：</label>
+                <input type="text" name="usr" id="usr" placeholder="用户名">
+                <br>
+                <label for="passwd">密码：</label>
+                <input type="password" name="passwd" id="passwd" placeholder="密码">
+                <div class="btns">
+                    <button type="submit" onclick="return false;" class="mbutton">登陆</button>
+                    <button type="reset" class="mbutton">重置</button>
+                </div>
+            </form>
+            <form action="/" style="display: block;margin-top: 10px;" class="form1" id="register">
+                <label for="usr">账号：</label>
+                <input type="text" name="usr" id="usr" placeholder="请输入手机号">
+                <br>
+                <label for="passwd">密码：</label>
+                <input type="password" name="passwd" id="passwd" placeholder="请输入密码">
+                <br>
+                <label for="passwd1">密码确认</label>
+                <input type="password" name="passwd" id="passwd1" placeholder="请再次输入密码" style="margin-left:0;">
+                <br>
+                <label for="email">Email：</label>
+                <input type="email" name="passwd" id="email" placeholder="请输入邮箱">
+                <div class="btns1">
+                    <button type="submit" onclick="return false;" class="mbutton1">注册</button>
+                    <button type="reset" class="mbutton1">重置</button>
+                    <button type="button" onclick="login()" class="mbutton1">返回</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+
+</html>
