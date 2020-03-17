@@ -1,12 +1,27 @@
+.msgbox{
+    position: relative;
+    width: 376px;
+    height: 52px;
+    z-index: 99;
+    margin: 0 auto;
+    line-height: 20px;
+    color:#f56c6c;
+    margin-top: 100px;
+}
+.msgbox p{
+    margin: 16px 0;
+    text-align: center;
+}
 #container{
+    position: relative;
     width: 376px;
     height: 400px;
     margin: 0 auto;
     border: 0px solid #409EFF;
-    margin-top: 150px;
+    margin-top: 0px;
     border-radius: 4px;
     box-shadow:0 0 20px -5px #409EFF;
-    
+    z-index: 0;
 }
 .top{
     width:100%;
