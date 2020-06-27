@@ -12,6 +12,9 @@
     margin: 16px 0;
     text-align: center;
 }
+body{
+    background-image: url(./img/blue-snow.png);
+}
 #container{
     position: relative;
     width: 376px;
@@ -22,6 +25,7 @@
     border-radius: 4px;
     box-shadow:0 0 20px -5px #409EFF;
     z-index: 0;
+    background-color: #fff;
 }
 .top{
     width:100%;
